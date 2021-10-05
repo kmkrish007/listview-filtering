@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <link href="https://cdn.syncfusion.com/ej2/material.css" rel="stylesheet" />
+
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        touch-action: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="sample">
+        <input
+          class="e-input"
+          type="text"
+          id="textbox"
+          placeholder="Filter"
+          title="Type in a name"
+        />
+        <div id="list"></div>
+      </div>
+    </div>
+  </body>
+  <style>
+    #container {
+      visibility: hidden;
+    }
+
+    #loader {
+      color: #008cff;
+      height: 40px;
+      width: 30%;
+      position: absolute;
+      font-family: 'Helvetica Neue', 'calibiri';
+      font-size: 14px;
+      top: 45%;
+      left: 45%;
+    }
+
+    #list {
+      box-shadow: 0 1px 4px #ddd;
+      border-bottom: 1px solid #ddd;
+    }
+    #sample {
+      height: 220px;
+      margin: 0 auto;
+      display: block;
+      max-width: 350px;
+    }
+  </style>
+</html>
